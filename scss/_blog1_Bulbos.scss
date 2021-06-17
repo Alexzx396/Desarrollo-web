@@ -1,0 +1,55 @@
+
+  /* <!-- #Seccion tercera Blog--> */
+  
+  #tercera-seccion{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+  
+  #titulo {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+  }
+  
+  #titulohr{
+    background-color: palegreen;
+    height: 4px;
+    display: grid;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .imagen{
+      display: flex;
+      width: 65%;
+      height: 600px;
+      padding-block-end:100px;
+      padding-left: 450px;
+      padding-top: 50px;
+  }
+  
+  p{
+    display:flex;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    ;
+  }
+  
+  H1{
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  

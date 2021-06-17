@@ -1,0 +1,27 @@
+/* <!-- #Seccion botones --> */
+
+.boton-verde{
+    text-decoration:none;
+    color:white;
+    font: 0.2rem;
+    font-family: monospace, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color:rgb(13, 105, 13);
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+  }
+  
+  .boton-verde{
+    letter-spacing: 1px;
+    transition: box-shadow 0.5s letter-spacing 0.5s;
+    margin-left: 5.5rem;
+  }
+  
+  .boton-verde:hover{
+    letter-spacing: 5px;
+    box-shadow: 0 0 0 5px palegreen;
+  }
+
+
