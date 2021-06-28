@@ -17,60 +17,67 @@
     <link rel="stylesheet" href="./css/styles.css">
 <!-- barra informativa -->
  
-<div class="container"> 
-<div class="alert alert-success" role="alert" id="comienso1">
-  Atencion: por covid 19, solo despachos Lunes y viernes a todo chile 
-</div>
-</div>
-<br>
-
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!--Popper  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</div>
-<!-- #seccion primera barra superior -->
-
 <section class="container">
-</head class="container-fluid">
-<head>
-  <body>
-    <header>
-      <div>
-          <div class="buscar"><br>
-            <form class="d-flex">
-              <input type="text" placeholder="Buscar"  required>
-            </form>
-          </div>
-          <div class="container-fluid">
-          <img  class="rounded mx-auto d-block" id="logo" src="./imagenes/icono plantastik.jpg" alt="">
-          </div>
-          </div><br><br><br>
+  <div class="alert alert-success d-flex align-items-center" role="alert" >
+  <class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></class=>
+  <div id="comienso1">
+    Atencion!! por covid 19, solo despachos Lunes y viernes a todo chile. Para mayor informacion: info@plantastik.cl.
+  </div>
+  </section>
+  
+  <br>
+  
+      <!-- Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!--Popper  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <!-- Bootstrap -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </div>
+  <!-- #seccion primera barra superior -->
+  
+  <section class="container">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      
+          <img  class="rounded mx-auto d-block" id="logo" src="./imagenes/logo/logo nuevo plantastik.png.png" alt="">
+          <img/>
           
-          <nav id="barra-superior" >
-            <div ></div>
-            <ul class="nav">
-              <li class="nav-item"><a href="./index.html">Home</a></li>
-              <li class="nav-item"><a href="./Productos_Principal.html">Productos</a>
-                  <ul><li class="nav-item"><a href="./Prodcutos_Semillas.html">Semillas</a></li>
-                  <li class="nav-item"><a href="./Prodcuto_Sustrato.html">Sustratos</a></li>
-                  <li><a href="./Productos_Bulbos.html">Bulbos</a></li>
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./Blog_Principal.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="./Prodcutos_Semillas.html">Semillas</a></li>
+                <li><a class="dropdown-item" href="./Prodcuto_Sustrato.html">Sustratos</a></li>
+                <li><a class="dropdown-item" href="./Productos_Bulbos.html">Bulbos</a></li>
               </ul>
-              </li>
-              <li class="nav-item"><a href="./Nosotros.html">Nosotros</a></li>
-              <li class="nav-item"><a href="./Blog_Principal.html">Blog</a></li>
-              <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
-            
-              </ul>
-          </nav>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escribe tu busqueda" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
-  </header>
-  </body>
-</head>
-</section>
+    </nav>
+  
+  </section>
 
 
 <!-- #Seccion tercera productos-->

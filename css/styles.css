@@ -47,10 +47,16 @@
 
 /* <!-- #Seccion tercera Blog--> */
 #tercera-seccion {
-  margin: auto;
   display: flex;
   flex-direction: column;
   width: 95%;
+  padding-top: 3rem;
+  padding-bottom: 5rem; }
+
+#tercera-seccion1 {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
   padding-top: 3rem;
   padding-bottom: 5rem; }
 
@@ -71,10 +77,10 @@
 
 .imagen {
   display: flex;
-  width: 65%;
-  height: 600px;
+  width: 75%;
+  height: 35%;
   padding-block-end: 100px;
-  padding-left: 450px;
+  padding-left: 300px;
   padding-top: 50px; }
 
 p {
@@ -102,7 +108,7 @@ H1 {
 .boton-verde {
   letter-spacing: 1px;
   transition: box-shadow 0.5s letter-spacing 0.5s;
-  margin-left: 5.5rem; }
+  margin-left: 4rem; }
 
 .boton-verde:hover {
   letter-spacing: 5px;
@@ -233,7 +239,15 @@ H1 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 5rem; }
+
+#tercera-seccion1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
   padding-top: 1rem;
   padding-bottom: 5rem; }
 
@@ -283,127 +297,27 @@ p {
 * {
   padding: 0;
   margin: 0;
-  font-size: 62,5%;
+  font-size: 62,9%;
   font-family: 'Montserrat', sans-serif; }
 
-header {
-  width: 100%; }
-
-div.alert .alert-success {
+.navbar {
   width: 100%;
-  height: 0.1rem;
-  background-color: #24c224;
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  height: auto;
+  margin-top: -3.5%; }
 
 #comienso1 {
   padding-left: 1rem;
-  height: 2.6rem;
-  text-align: center;
-  font-size: 100%; }
-
-.buscar {
-  position: absolute;
-  padding: 2%; }
-
-.buscar input {
-  width: 50%;
-  height: 50%;
-  padding: 0.5rem;
-  color: black;
-  outline: none;
-  border: 0.1rem solid silver;
-  border-radius: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 5rem;
-  margin-right: 7rem; }
+  margin-right: 7rem;
+  margin-left: 10rem; }
 
 #logo {
-  width: 20%;
-  height: 25%;
+  width: 12%;
+  height: 10%;
   margin-top: 1%;
   margin-bottom: 1%;
-  margin-left: 42%; }
-
-#barra-superior {
-  background-color: green;
-  font-weight: 5rem;
-  width: 100%;
-  height: 10%; }
-
-header nav, ul {
-  list-style: none;
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: flex-start; }
-
-/* subceccion de Nav*/
-ul {
-  list-style: none;
+  margin-left: 10%;
   padding-left: 1rem;
-  width: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: -2rem;
-  color: black;
-  letter-spacing: 10%; }
-
-li {
-  position: relative;
-  cursor: pointer;
-  padding: 1.8rem 0;
-  overflow: hidden; }
-
-li::before, li::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 105%;
-  height: 2%;
-  background: palegreen;
-  transition: 0.5s; }
-
-li::before {
-  top: 40px;
-  transform: translateX(-100%); }
-
-li::after {
-  bottom: 40px;
-  transform: translateX(100%); }
-
-li:hover::before, #SeccionFooterli,
-li:hover::after {
-  transform: translateX(0); }
-
-ul ul {
-  position: relative;
-  display: none; }
-
-ul ul li {
-  display: block; }
-
-ul li:hover ul {
-  display: block; }
-
-/* termino sub menu */
-header nav ul li {
-  list-style: none;
-  width: 7.5rem;
-  text-align: center;
-  float: left; }
-
-header nav ul li a {
-  display: inline-block;
-  padding: 1rem;
-  border: -1rem solid green;
-  color: white;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 1rem; }
+  padding-right: 2rem; }
 
 .container {
   width: 100%;

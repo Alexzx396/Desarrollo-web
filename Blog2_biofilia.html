@@ -17,69 +17,76 @@
     <link rel="stylesheet" href="./css/styles.css">
 <!-- barra informativa -->
  
-<div class="container"> 
-<div class="alert alert-success" role="alert" id="comienso1">
-  Atencion: por covid 19, solo despachos Lunes y viernes a todo chile 
-</div>
-</div>
-<br>
-
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!--Popper  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</div>
-<!-- #seccion primera barra superior -->
-
 <section class="container">
-</head class="container-fluid">
-<head>
-  <body>
-    <header>
-      <div>
-          <div class="buscar"><br>
-            <form class="d-flex">
-              <input type="text" placeholder="Buscar"  required>
-            </form>
-          </div>
-          <div class="container-fluid">
-          <img  class="rounded mx-auto d-block" id="logo" src="./imagenes/icono plantastik.jpg" alt="">
-          </div>
-          </div><br><br><br>
+  <div class="alert alert-success d-flex align-items-center" role="alert" >
+  <class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></class=>
+  <div id="comienso1">
+    Atencion!! por covid 19, solo despachos Lunes y viernes a todo chile. Para mayor informacion: info@plantastik.cl.
+  </div>
+  </section>
+  
+  <br>
+  
+      <!-- Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!--Popper  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <!-- Bootstrap -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </div>
+  <!-- #seccion primera barra superior -->
+  
+  <section class="container">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      
+          <img  class="rounded mx-auto d-block" id="logo" src="./imagenes/logo/logo nuevo plantastik.png.png" alt="">
+          <img/>
           
-          <nav id="barra-superior" >
-            <div ></div>
-            <ul class="nav">
-              <li class="nav-item"><a  href="./index.html">Home</a></li>
-              <li class="nav-item"><a href="./Productos_Principal.html">Productos</a>
-                  <ul><li class="nav-item"><a href="./Prodcutos_Semillas.html">Semillas</a></li>
-                  <li class="nav-item"><a href="./Prodcuto_Sustrato.html">Sustratos</a></li>
-                  <li><a href="./Productos_Bulbos.html">Bulbos</a></li>
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./Blog_Principal.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="./Prodcutos_Semillas.html">Semillas</a></li>
+                <li><a class="dropdown-item" href="./Prodcuto_Sustrato.html">Sustratos</a></li>
+                <li><a class="dropdown-item" href="./Productos_Bulbos.html">Bulbos</a></li>
               </ul>
-              </li>
-              <li class="nav-item"><a href="./Nosotros.html">Nosotros</a></li>
-              <li class="nav-item"><a href="./Blog_Principal.html">Blog</a></li>
-              <li class="nav-item"><a href="./contacto.html">Contacto</a></li>
-            
-              </ul>
-          </nav>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escribe tu busqueda" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
-  </header>
-  </body>
-</head>
-</section>
+    </nav>
+  
+  </section>
 
-<section id="tercera-seccion"><br><br>
+<section id="tercera-seccion1"><br><br>
     <h1 id="titulo">El poder curativo de la naturaleza</h1>
     <hr id="titulohr">
     <br>
     <img class="imagen" src="./imagenes/biofilia.jpg" alt="">
     <br>
     <p> 
-        <br><br>
+        
         Ya en el siglo IV a.C. el célebre médico y filósofo griego Hipócrates hablaba de la importancia de la naturaleza para la salud del ser humano y de la terapia de las enfermedades. También en la antigua Grecia había clínicas con jardines acondicionados para sus pacientes, en las que, además, se prescribían estancias en la naturaleza como parte integrante del tratamiento. Los médicos incluso prescribían a sus pacientes la experiencia de la naturaleza tras abandonar la clínica. Estos hospitales se denominaban la clínica. Estos hospitales se denominaban Asclepieia, por Asclepios, el antiguo dios griego del arte de la curacion. <br><br>
         Asimismo, en los centros de formación para los médicos los jardines y la naturaleza desempeñaban un papel nada desdeñable. La medicina del futuro volverá a orientarse hacia estos antiguos modelos y la relación hombre-naturaleza será un rasgo integrado en las terapias para tratar enfermedades físicas y psíquicas, pero ante todo en salud preventiva.  <br><br>
         En la ciencia moderna desarrolla avances gigantescos para descubrir el origen de las enfermedades. No obstante, muchas “enfermedades comunes” no se acogen a unos patrones de fácil explicación. Un 60% de las causas del menoscabo de la salud, las enfermedades crónicas y la muerte prematura no se remiten a desencadenantes claros como agentes patógenos, contaminantes del medio ambiente, factores genéticos. Y la búsqueda de causas en el caso de trastornos psíquicos es un más compleja. 
