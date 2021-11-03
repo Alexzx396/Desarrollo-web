@@ -53,7 +53,7 @@
   padding-top: 3rem;
   padding-bottom: 5rem; }
 
-#tercera-seccion1 {
+#tercera-seccion {
   display: flex;
   flex-direction: column;
   width: 75%;
@@ -96,10 +96,10 @@ H1 {
 .boton-verde {
   text-decoration: none;
   color: white;
-  font: 0.2rem;
+  font: 0.5rem;
   font-family: monospace, sans-serif;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   background-color: #0d690d;
   padding: 1rem 2rem;
   display: inline-block;
@@ -116,7 +116,7 @@ H1 {
 
 #imagencarrucel {
   width: 100%;
-  height: 30rem; }
+  height: 45rem; }
 
 #TextosCarrucel {
   text-align: center;
@@ -137,7 +137,7 @@ H1 {
   font-size: 1rem; }
 
 .H1 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: justify; }
 
 .wrapper {
@@ -256,7 +256,7 @@ H1 {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 #titulohr {
   background-color: palegreen;
@@ -268,7 +268,7 @@ H1 {
 
 .img-tercera {
   width: 100%;
-  height: 20rem;
+  height: 30rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
@@ -308,7 +308,8 @@ p {
 #comienso1 {
   padding-left: 1rem;
   margin-right: 7rem;
-  margin-left: 10rem; }
+  margin-left: 10rem; 
+}
 
 #logo {
   width: 12%;
@@ -328,3 +329,13 @@ p {
 
 .text-center .p-3 {
   font-size: 80%; }
+
+.buscador{
+    padding-left: 15%;
+    
+}
+
+#Home{
+  font-size: 115%;
+  font-family: 'Montserrat', sans-serif; 
+}
